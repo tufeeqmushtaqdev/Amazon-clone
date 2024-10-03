@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  border: border-box;
+}
+
+.navbar {
+  height: 60px;
+  color: black;
+  background-color: #e0e1dd;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nav-logo {
+  height: 50px;
+  width: 100px;
+}
+
+.logo {
+  background-image: url(images/amazon-2-logo-svgrepo-com.svg);
+  background-size: cover;
+  height: 50px;
+  width: 100px;
+}
+.border {
+  border: 2px solid transparent;
+  &.border:hover {
+    border: 1.5px solid #1b263b;
+    border-radius: 8%;
+  }
+}
+
+/* address-box */
+
+.add-1 {
+  font-size: 0.8rem;
+  margin-left: 15px;
+}
+
+.add-2 {
+  font-size: 1.2rem;
+  margin-left: 3px;
+}
+.add-icon {
+  display: flex;
+  align-items: center;
+}
+
+/* navsearch */
+
+.navsearch {
+  display: flex;
+  background-color: pink;
+  width: 620px;
+  height: 40px;
+  border-radius: 3px;
+  justify-content: space-evenly;
+}
+
+.Search-select {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  background-color: #f3f3f3;
+  width: 50px;
+  text-align: center;
+  border: none;
+}
+
+.search-input {
+  width: 100%;
+  font-size: larger;
+  border: none;
+}
+
+.search-icon {
+  width: 45px;
+  background-color: #6d7680;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  color: rgb(0, 0, 0);
+}
+
+.navsearch:hover {
+  border: 3.5px solid red;
+}
+
+/* box4 */
+
+span {
+  font-size: 0.7rem;
+}
+
+.four-2 {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+/* box6 */
+.navcart i {
+  font-size: 25px;
+}
+
+.navcart {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+/* ---------------------panel------------------------------ */
+
+.panel {
+  height: 40px;
+  background-color: #222f3d;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.panel-options {
+  display: inline;
+  font-size: 0.7rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.panel-deals {
+  font-weight: 700;
+}
+
+/* ------------------------------------------------------HERO---------------------------------------------- */
+.hero {
+  background-image: url(images/backphoto.jpg);
+  background-size: cover;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.hero-message {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  height: 35px;
+  font-size: large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  width: 95%;
+  margin-bottom: 50px;
+}
+.hero-message a {
+  color: #007185;
+  font-size: 1.2rem;
+}
+
+/* ---------------------------------------------------------SHOP---------------------------------------------- */
+
+.shopping {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #dad5d5;
+  text-decoration: none;
+}
+
+.box {
+  height: 400px;
+  width: 23%;
+  padding: 20px 0px 15px;
+  margin-top: 1rem;
+  background-color: #ffffff;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  text-decoration: none;
+}
+
+.box-image {
+  height: 360px;
+  background-size: cover;
+}
+
+.box-content {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.box-content p {
+  color: #007185;
+  text-decoration: none;
+  
+}
+
+
+.box-content a{
+  text-decoration: none;
+}
+
+
+
+
+/* --------------------------------footer----------------------------------- */
+footer {
+  margin-top: 20px;
+}
+.footer-panel1 {
+  background-color: #1b263b;
+  color: #ffffff;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-panel2 {
+  background-color: #a8a8a7;
+  height: 300px;
+  display: flex;
+
+  justify-content: space-evenly;
+}
+
+ul a {
+  display: block;
+  font-size: 0.85rem;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #000000;
+}
+
+ul p {
+  margin-top: 50px;
+  font-size: larger;
+  font-weight: 600;
+}
+
+.foot-panel3 {
+  background-color: #a8a8a7;
+  border-top: 0.1px solid rgb(255, 255, 255);
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.foot-panel4 {
+  background-color: #a8a8a7;
+  height: 100px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-top: 0.1px solid rgb(255, 255, 255);
+  text-align: center;
+  
+}
+
+.pages {
+  font-size: 1rem;
+   display:flex ;
+   justify-content: space-evenly;
+  margin-top: 20px;
+  
+  
+}
+
+.copyright {
+  font-size: 1rem;
+
+  margin-top: 15px;
+}
+
+.foot-panel4 a{
+  text-decoration: none;
+}
